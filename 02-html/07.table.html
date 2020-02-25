@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table</title>
+</head>
+<body>
+<table border width="100%">
+<!--    <tr>-->
+<!--        <td>cell</td>-->
+<!--        <td>cell</td>-->
+<!--        <td>cell</td>-->
+<!--        <td>cell</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>cell</td>-->
+<!--        <td>cell</td>-->
+<!--        <td>cell</td>-->
+<!--        <td>cell</td>-->
+<!--    </tr>-->
+<!--  scope = col | row | colgroup | rowgroup  -->
+    <caption>table caption</caption>
+    <colgroup>
+        <col width="200">
+        <col width="200">
+        <col width="200">
+        <col>
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope="col">table header cell</th>
+            <th scope="col">table header cell</th>
+            <th scope="col">table header cell</th>
+            <th scope="col">table header cell</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">table data cell</td>
+            <td>table data cell</td>
+            <td>table data cell</td>
+            <td>table data cell</td>
+        </tr>
+        <tr>
+<!--            <td>table data cell</td>-->
+            <td>table data cell</td>
+            <td>table data cell</td>
+            <td>table data cell</td>
+        </tr>
+        <tr>
+<!--            <td>table data cell</td>-->
+            <td>table data cell</td>
+            <td>table data cell</td>
+            <td>table data cell</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">result</th>
+            <td colspan="3">result</td>
+<!--            <td>result</td>-->
+<!--            <td>result</td>-->
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
